@@ -17,6 +17,8 @@ public:
 	void SetString(const std::string& str);
 	void SetCharacterSize(unsigned int size);
 	void SetFillColor(const sf::Color& color);
+	sf::Color GetFillColor() const;
+
 	std::string GetString() const;
 
 	sf::Text& GetText() { return text; }

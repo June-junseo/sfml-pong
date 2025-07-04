@@ -23,6 +23,12 @@ void TextGo::SetFillColor(const sf::Color& color)
 	text.setFillColor(color);
 }
 
+sf::Color TextGo::GetFillColor() const
+{
+	return text.getFillColor(); // 내부 sf::Text 멤버 변수 기준
+}
+
+
 std::string TextGo::GetString() const
 {
 	return text.getString();
