@@ -12,6 +12,10 @@ protected:
 	sf::Vector2f direction;
 
 	Bat* bat = nullptr;
+	Bat* bat1 = nullptr;
+	Bat* bat2 = nullptr;
+
+	bool isDuo = false;
 
 	float minX = 0.f;
 	float maxX = 0.f;
@@ -36,6 +40,9 @@ public:
 
 	void Fire(const sf::Vector2f& d, float s);
 	void SetBat(Bat* bat) { this->bat = bat; }
+	void SetBat1(Bat* bat1) { this->bat1 = bat1; }
+	void SetBat2(Bat* bat2) { this->bat2 = bat2; }
+	void SetDuo(bool duo);
 
 };
 

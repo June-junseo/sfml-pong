@@ -18,6 +18,7 @@ enum class SceneIds
 	None = -1,
 	title,
 	Game,
+	DuoGame,
 	Dev1,
 	Dev2,
 	Count,

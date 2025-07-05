@@ -31,11 +31,6 @@ void SceneGame::Enter()
 void SceneGame::Update(float dt)
 {
 	Scene::Update(dt);
-	////scene change
-	//if (InputMgr::GetKeyDown(sf::Keyboard::Space))
-	//{
-	//	SCENE_MGR.ChangeScene(SceneIds::Dev1);
-	//}
 
 	if (!ballActive)
 	{
