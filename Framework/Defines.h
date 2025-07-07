@@ -17,6 +17,7 @@ enum class SceneIds
 {
 	None = -1,
 	title,
+	Option,
 	Game,
 	DuoGame,
 	Dev1,

@@ -10,10 +10,8 @@ SceneGame::SceneGame() : Scene(SceneIds::Game)
 
 void SceneGame::Init()
 {
+	texIds.push_back("graphics/Option.png");
 	texIds.push_back("graphics/Pong.png");
-
-	//AddGameObject(new SpriteGo("graphics/Pong.png"));
-
 
 	ball = (Ball*)AddGameObject(new Ball("Ball"));
 	bat = (Bat*)AddGameObject(new Bat("Bat"));

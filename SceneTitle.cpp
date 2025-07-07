@@ -27,6 +27,6 @@ void SceneTitle::Update(float dt)
 	Scene::Update(dt);
 	if (InputMgr::GetKeyDown(sf::Keyboard::Space))
 	{
-		SCENE_MGR.ChangeScene(SceneIds::Game);
+		SCENE_MGR.ChangeScene(SceneIds::Option);
 	}
 }

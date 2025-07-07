@@ -10,6 +10,8 @@ SceneDuoGame::SceneDuoGame()
 
 void SceneDuoGame::Init()
 {
+	texIds.push_back("graphics/Option.png");
+	texIds.push_back("graphics/Pong.png");
 	ball = (Ball*)AddGameObject(new Ball("Ball"));
 	bat1 = (Bat*)AddGameObject(new Bat("Bat1"));
 	bat2 = (Bat*)AddGameObject(new Bat("Bat2"));

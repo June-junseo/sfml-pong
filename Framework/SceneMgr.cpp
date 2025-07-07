@@ -5,11 +5,13 @@
 #include "SceneGame.h"
 #include "SceneTitle.h"
 #include "SceneDuoGame.h"
+#include "SceneOption.h"
 
 
 void SceneMgr::Init()
 {
 	scenes.push_back(new SceneTitle());
+	scenes.push_back(new SceneOption());
 	scenes.push_back(new SceneGame());
 	scenes.push_back(new SceneDuoGame());
 	scenes.push_back(new SceneDev1());
